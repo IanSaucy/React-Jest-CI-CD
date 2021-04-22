@@ -1,5 +1,5 @@
 # React | Typescript | Jest - application boilerplate
-[![CI](https://github.com/IanSaucy/React-Jest-CI-CD/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/IanSaucy/React-Jest-CI-CD/actions/workflows/main.yml)
+[![CI](https://github.com/IanSaucy/React-Jest-CI-CD/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/IanSaucy/React-Jest-CI-CD/actions/workflows/main.yml) [![Deploy to Firebase Hosting on merge](https://github.com/IanSaucy/React-Jest-CI-CD/actions/workflows/firebase-hosting-merge.yml/badge.svg?branch=master)](https://github.com/IanSaucy/React-Jest-CI-CD/actions/workflows/firebase-hosting-merge.yml)
 
 It's a template for React application with Typescript, Jest library and other stuff that can be helpful for You - feel free to use it!
  

@@ -32,3 +32,11 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Tests
         run: npm test
+      # Enforce Code Style on SCSS   
+      - name: Run ESLINT on Styles
+        run: npm run lint:style
+        
+      # Enforce code style on typescript/js
+      - name: Run ESLint on Code
+        run: npm run lint:code
+        

@@ -8,6 +8,8 @@ It's a template for React application with Typescript, Jest library and other st
 3. [Technology stack](#technology)
 4. [Useful information](#information)
 
+
+
 <a name="instalation" />
 
 ### Instalation steps

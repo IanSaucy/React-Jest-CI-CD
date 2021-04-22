@@ -28,8 +28,10 @@ jobs:
       # Cache deps so things run faster
       - uses: actions/cache@v2
         with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.lock') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       # Runs a single command using the runners shell
       - name: Install Modules

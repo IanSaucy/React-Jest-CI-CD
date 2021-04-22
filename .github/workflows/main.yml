@@ -52,3 +52,13 @@ jobs:
       - name: Run ESLint on Code
         run: npm run lint:code
         
+      # Code Coverage Report
+      - name: Code Coverage
+        run: npm run test:coverage
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          # If repo is private must provide token
+          token: ${{ secrets.CODECOV_TOKEN }}
+
+        
